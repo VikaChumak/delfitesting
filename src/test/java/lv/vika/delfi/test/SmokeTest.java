@@ -16,7 +16,7 @@ public class SmokeTest {
     @Test
     public void doSomethingTest() {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\viktoria.chumak01\\IdeaProjects\\lvvikadelfi\\src\\main\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get(PAGE_URL);
         driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
